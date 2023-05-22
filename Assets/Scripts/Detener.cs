@@ -13,7 +13,7 @@ public class Detener : MonoBehaviour
     void Start()
     {
         animator = GetComponentInChildren<Animator>(); // Obtener la referencia al componente Animator del objeto
-        animator.Play("ExpAnimator"); // Iniciar la animación
+        //animator.Play("ExpAnimator"); // Iniciar la animación
     }
 
     // Update is called once per frame
